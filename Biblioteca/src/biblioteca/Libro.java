@@ -8,6 +8,12 @@ package biblioteca;
 
 public class Libro {
     private String Autore, Titolo, Codice, Sezione;
+    public void Libro(){
+        this.Autore="";
+        this.Titolo="";
+        this.Codice="";
+        this.Sezione="";
+    }
     public void Libro(String Autore, String Titolo, String Codice, String Sezione){
         this.Autore=Autore;
         this.Titolo=Titolo;
