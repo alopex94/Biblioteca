@@ -55,21 +55,21 @@ public class Libro {
     
     public int ricercaPerAutore(Libro vet[], String daRicercare){
          for (int i=0; i<vet.length; i++)
-          if (vet[i].Autore.equals(daRicercare)==true)
+          if (vet[i].Autore.equalsIgnoreCase(daRicercare)==true)
               return i;
      return -1; //restituisce -1 se non trova l'elemento da cercare
     }
     
     public int ricercaPerTitolo(Libro vet[], String daRicercare){
          for (int i=0; i<vet.length; i++)
-          if (vet[i].Titolo.equals(daRicercare)==true)
+          if (vet[i].Titolo.equalsIgnoreCase(daRicercare)==true)
               return i;
      return -1; //restituisce -1 se non trova l'elemento da cercare
     }
     
     public int ricercaPerCodice(Libro vet[], String daRicercare){
          for (int i=0; i<vet.length; i++)
-          if (vet[i].Codice.equals(daRicercare)==true)
+          if (vet[i].Codice.equalsIgnoreCase(daRicercare)==true)
               return i;
      return -1; //restituisce -1 se non trova l'elemento da cercare
     }
