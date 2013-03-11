@@ -3,8 +3,7 @@ package biblioteca;
 
 /**
  *
- * @author alopex && Fabiojunior337
- * @version 1.0
+ * @author alopex
  */
 
 public class Libro {
